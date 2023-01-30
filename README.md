@@ -37,6 +37,7 @@ curl localhost:8000
 ![image](https://user-images.githubusercontent.com/31267678/215367260-8c3ceaa8-cd00-4da4-8c91-c9379bc93995.png)
 
 ### 3. Comprobando la conexión hacia el servidor SSH
+~~~bash
 ssh -p 2222 -i ./public_key/id_rsa.key newuser@localhost
 ~~~
 
