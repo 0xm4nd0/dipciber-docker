@@ -51,7 +51,7 @@ ssh -p 2222 -i ./public_key/id_rsa.key newuser@localhost
     + Archivo necesario para la construcción de la imagen del contenedor
 + README.md 
     + Documentación 
-+ /public_key/id_rsa.key
++ `/public_key/id_rsa.key`
     + Llave privada para iniciar sesión como el usuario `newuser`
-+ /public_key/pubkey.pub
++ `/public_key/pubkey.pub`
     + Llave pública del host que se guarda en el servidor
